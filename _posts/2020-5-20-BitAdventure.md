@@ -4,7 +4,7 @@ title: Bit's Adventure
 published: true
 categories: project
 ---
-![Bit Adventure]({{site.baseurl}}/images/BitAdventure.gif)
+![Bit Adventure]({{site.baseurl}}/images/BitAdventure.gif){:width="350" height="350"}
 
 [Bit's Adventure](https://clementinefruity.itch.io/bit-adventure) is a platformer with a 1-bit pixel art aesthetic. Created in a week using the Godot Game Engine for Godot Wild Jam #21.
 

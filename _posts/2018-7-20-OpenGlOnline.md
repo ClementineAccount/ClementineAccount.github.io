@@ -5,7 +5,6 @@ published: true
 categories: project
 ---
 
-![Ship Game]({{site.baseurl}}/images/mutiplayerGame.png)
-
+![Ship Game]({{site.baseurl}}/images/mutiplayerGame.png){:width="350" height="350"}
 
 School project made with [HGE](https://kvakvs.github.io/hge/) to demonstrate using Winsock2.h to send network sockets for multiplayer. This project used server-to-peer connection for managing game data.
