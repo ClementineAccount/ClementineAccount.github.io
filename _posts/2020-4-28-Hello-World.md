@@ -2,6 +2,7 @@
 layout: post
 title: Under Construction!
 published: true
+categories: blog
 ---
 
 Hello World!  

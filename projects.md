@@ -1,18 +1,20 @@
 ---
 layout: default
+title: Projects
+permalink: /projects/
 ---
-
 <div class="posts">
-  {% for post in site.categories.blog %}
+  {% for post in site.categories.project %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      
+      <h2>{{ post.date | date: '%B %Y' }}</h2>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.content }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
