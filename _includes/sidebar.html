@@ -37,7 +37,7 @@
       <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
         <a href="{{ tab.url | relative_url }}" class="nav-link">
           <i class="fa-fw {{ tab.icon }}"></i>
-          {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+          {% capture tab_name %}{{ tab.title | split: '/' }}{% endcapture %}
 
           <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
         </a>
@@ -60,7 +60,7 @@
 
     {% for entry in site.data.contact %}
       {% case entry.type %}
-        {% when 'github', 'twitter' %}
+        {% when 'github' %}
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
