@@ -26,7 +26,8 @@ Screenshot example of the [Godot Game Engine](https://godotengine.org/features/#
 
 In contrast, my game is developed entirely in code as shown in the screenshot which shows my codebase opened in [Microsoft Visual Studios](https://visualstudio.microsoft.com/). I don't have any preview of the game world through an editor would need to write my own code to add those features myself.
 
-# So how could I edit levels?
+How to Create Levels? Make an Editor?
+--
 
 The first natural instinct to overcome the problem of not having a level editor is to simply create one in our own game. This will allow us to interact with in the 3D space during runtime, creating tools to interact and manipulate objects in the space.  We can then save such level files into our own file formats and load them ourselves in the future.
 
@@ -36,7 +37,8 @@ Even if the programmer tasked on this task is familiar with the problems at hand
 
 Since prototyping the obstacle-courses for this project should be done as soon as possible, I thought about other alternatives and came to a simple conclusion: "What if I could create the levels based off a 3D model file?"
 
-# Using a 3D modelling program like Maya or... Blender
+Using a 3D modelling program like Maya or... Blender
+--
 
 I already have many of the tools for manipulating 3D scenes provided for me in common 3D modelling applications such as Blender, which I have been using to create placeholder 3D models such as the aircraft. Of course, simply loading a big 3D file meant to represent the level does not solve the problem immediately. The game engine would need a way to identify which elements of that model represent gameplay features, such as checkpoints or collectables, and which elements of that model represent walls and barriers. It also would need to find some way to determine the collision data for all of those elements. There is no way to do this 'automatically' if it reads the model data as just 'one model'.
 
@@ -118,7 +120,8 @@ return globalTransformList;
 
 This allows the level to create the interactable objects and collision shapes for them incrementally, only adjusting their transformation based off the level data.
 
-# Using Paint Software for 2D Level Editing 
+Using Paint Software for 2D Level Editing 
+--
 
 In retrospect, this is not the first time I had applied the concept of repurposing a data format intended to represent digital art to use art programs for video game level editing. As a freshman undergraduate at Digipen Singapore, I also came up with a very similar concept for the project [Pixel Perfect](https://games.digipen.edu/games/perfect-pixel), which also has [its own page on this blog](https://clementineaccount.github.io/PerfectPixel/).
 
@@ -140,7 +143,8 @@ The following c-style code is an extract from the same 2020 freshman year studen
 
 ![Code extract of .bmp parsing](PPPP.png)
 
-# Researching Other Examples
+Researching Other Examples
+--
 
 It is not uncommon for developers to repurpose existing external tools to aid in asset creation for entertainment projects, including level editors for video games. 
 
@@ -152,7 +156,8 @@ While it is more niche, it is also possible to extend the same concept towards u
 
 ![Godot Quake Plugin](GodotQuake.gif)
 
-# Moving Forward
+Moving Forward
+--
 
 While this article showcases the value of using Blender as a prototype editor for my hobbyist game project, there are still certain improvements worth considering, which may be reviewed in depth through a follow-up article once these improvements have been implemented and tested. 
 
@@ -166,7 +171,8 @@ Another thing I would like to improve is combining all level data generated from
 
 ![Plane Game](PlaneGame.gif)
 
-# Conclusion
+Conclusion
+--
 
 So what is the overall purpose of discussing all the following examples of ways we can develop level content for a game without making a level editor? By showcasing the creative and practical ways we can continue to do developmental work in prototyping phases of project by repurposing the tools that already exist, we can adopt a important mindset that allows faster prototyping and incremental development as creating separate tools and editors can cause a block in developing the actual levels and environments of a game. 
 
