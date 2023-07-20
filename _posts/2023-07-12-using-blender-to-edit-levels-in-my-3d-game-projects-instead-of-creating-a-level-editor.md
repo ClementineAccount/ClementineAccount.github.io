@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: [Blog]
-title: Using blender to edit levels in my 3D game projects instead of creating a level
-  editor
+categories: [Blog, Articles]
+title: Using external programs to create levels instead of making in-engine editors
 date: 2023-06-12 21:11 +0800
 img_path: /assets/blog/blog1
 toc: true
@@ -26,8 +25,8 @@ Screenshot example of the [Godot Game Engine](https://godotengine.org/features/#
 
 In contrast, my game is developed entirely in code as shown in the screenshot which shows my codebase opened in [Microsoft Visual Studios](https://visualstudio.microsoft.com/). I don't have any preview of the game world through an editor would need to write my own code to add those features myself.
 
-How to Create Levels? Make an Editor?
---
+## How to Create Levels? Make an Editor?
+
 
 The first natural instinct to overcome the problem of not having a level editor is to simply create one in our own game. This will allow us to interact with in the 3D space during runtime, creating tools to interact and manipulate objects in the space.  We can then save such level files into our own file formats and load them ourselves in the future.
 
@@ -37,8 +36,7 @@ Even if the programmer tasked on this task is familiar with the problems at hand
 
 Since prototyping the obstacle-courses for this project should be done as soon as possible, I thought about other alternatives and came to a simple conclusion: "What if I could create the levels based off a 3D model file?"
 
-Using a 3D modelling program like Maya or... Blender
---
+## Using a 3D modelling program like Maya or... Blender
 
 I already have many of the tools for manipulating 3D scenes provided for me in common 3D modelling applications such as Blender, which I have been using to create placeholder 3D models such as the aircraft. Of course, simply loading a big 3D file meant to represent the level does not solve the problem immediately. The game engine would need a way to identify which elements of that model represent gameplay features, such as checkpoints or collectables, and which elements of that model represent walls and barriers. It also would need to find some way to determine the collision data for all of those elements. There is no way to do this 'automatically' if it reads the model data as just 'one model'.
 
@@ -120,8 +118,7 @@ return globalTransformList;
 
 This allows the level to create the interactable objects and collision shapes for them incrementally, only adjusting their transformation based off the level data.
 
-Using Paint Software for 2D Level Editing 
---
+## Using Paint Software for 2D Level Editing 
 
 In retrospect, this is not the first time I had applied the concept of repurposing a data format intended to represent digital art to use art programs for video game level editing. As a freshman undergraduate at Digipen Singapore, I also came up with a very similar concept for the project [Pixel Perfect](https://games.digipen.edu/games/perfect-pixel), which also has [its own page on this blog](https://clementineaccount.github.io/PerfectPixel/).
 
@@ -143,21 +140,31 @@ The following c-style code is an extract from the same 2020 freshman year studen
 
 ![Code extract of .bmp parsing](PPPP.png)
 
-Researching Other Examples
---
+## Researching Other Examples
+
 
 It is not uncommon for developers to repurpose existing external tools to aid in asset creation for entertainment projects, including level editors for video games. 
+
+### Insert Mario in Blender
+
 
 One publicly notable example of using Blender as a level editor is in creating fan-made unofficial levels for Nintendo's Super Mario Brothers 64. This can be seen the plugin [libsm64-blender](https://github.com/libsm64/libsm64-blender) which adds a controllable 3D Mario character to a blender scene, with collision data generated on the fly. This allows players to test their Mario levels inside the Blender editor directly. The is an example gif from the linked page showcasing the player interacting with the level created in Blender.
 
 ![It's a me mario (in blender)](Mario.gif)
 
+### Quake levels in Godot
+
 While it is more niche, it is also possible to extend the same concept towards using other game engines entirely for games made in different game engines. The Godot plugin [Qodot](https://github.com/QodotPlugin/Qodot/) allows users to import and edit level files for the game [Quake](https://en.wikipedia.org/wiki/Quake_(video_game)), which was not made with Godot. This allows a developer the option of using Quake level editor tools such as [TrenchBroom](https://trenchbroom.github.io/](https://trenchbroom.github.io/) to create levels for their own game projects in Godot or to use Godot to edit Quake levels, depending on which they prefer. As such they can make full use of features from either engine according to their personal skill level with that editor or needs. This can be seen in the following gif from the linked page showcasing the plugin importing a Quake level in the Godot game engine.
 
 ![Godot Quake Plugin](GodotQuake.gif)
 
-Moving Forward
---
+### Tiled
+
+Finally, it might be worth mentioning that [Tiled](https://www.mapeditor.org/) is a popular level-editor for 2D games that exists
+specifically to create tilemaps that can be exported to other engines such as Godot, Unity or even RPG Maker. It can be particularly
+powerful for people working in frameworks like [Phaser](https://en.wikipedia.org/wiki/Phaser_(game_framework)) or [MonoGame](https://en.wikipedia.org/wiki/MonoGame) which do not have editors. Maybe I could cover game frameworks in a future post.
+
+## Moving Forward
 
 While this article showcases the value of using Blender as a prototype editor for my hobbyist game project, there are still certain improvements worth considering, which may be reviewed in depth through a follow-up article once these improvements have been implemented and tested. 
 
