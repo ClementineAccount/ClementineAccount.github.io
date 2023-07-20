@@ -4,8 +4,8 @@ categories: [Projects, Student Projects]
 title: Perfect Pixel
 date: 2023-07-20 20:23 +0800
 
-img_path: /assets/project/PixelPerfect
-toc: true
+img_path: /assets/Projects/PixelPerfect
+toc: false
 
 image:
   path: preview.jpg
