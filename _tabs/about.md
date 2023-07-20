@@ -4,10 +4,6 @@ icon: fas fa-info-circle
 order: 2
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-
-
 # Who am you? What is this site?
 
 My name is [Clementine](https://www.linkedin.com/in/clementine-shamaney-07847a185) and I was born in 1999. This website acts as a sort of portfolio used to host articles that I have written myself detailing things I have learned in my coding adventures both academically and in my personal life. 
