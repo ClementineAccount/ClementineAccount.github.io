@@ -37,15 +37,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Clementine Shamaney
-  email: clementineshamaney@gmail.com # change to your email address
+  name: Clementine
+  email: clementinepersonal@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    # https://twitter.com/username # change to your twitter homepage
     - https://github.com/ClementineAccount # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/clementine-shamaney-07847a185
+    # https://www.linkedin.com/in/clementine-shamaney-07847a185
 
 google_site_verification: # fill in to your verification string
 
