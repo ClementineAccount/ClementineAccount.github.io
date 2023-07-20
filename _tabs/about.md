@@ -6,7 +6,7 @@ order: 2
 
 # Who am you? What is this site?
 
-My name is [Clementine] and I was born in 1999. This website acts as a sort of portfolio used to host articles that I have written myself detailing things I have learned in my coding adventures both academically and in my personal life. 
+My name is Clementine and I was born in 1999. This website acts as a sort of portfolio used to host articles that I have written myself detailing things I have learned in my coding adventures both academically and in my personal life. 
 
 The sidebars will be your friend to find writeups about the [projects that I have worked on](http://localhost:4000/categories/). The rest of this page just describes the type of things that interest me, both within programming and outside it (I do have a life outside of [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code), after all). 
 
