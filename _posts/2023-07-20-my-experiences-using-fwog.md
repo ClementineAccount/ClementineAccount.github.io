@@ -47,7 +47,7 @@ With all these factors, it was inviting to jump in and support the project as I 
 
 This section assumes the reader has had some familiarity with using graphical APIs like WebGL, OpenGL or Vulkan to render graphics and knows what they are looking for, rather than acting as a full step-by-step tutorial. The reader should feel free to skip to the next section if they are uninterested in writing code with the Fwog library.
 
-The following code examples are from a [Fwog starter template](https://github.com/ClementineAccount/Fwog-CMake-Glfw-OpenGL-Template)that I had created after using Fwog to make the prototype aircraft flying arcade game. The links provided under the text `code snippet` are permalinks to the relevant sections inside the repository. 
+The following code examples are from a [Fwog starter template](https://github.com/ClementineAccount/Fwog-CMake-Glfw-OpenGL-Template) that I had created after using Fwog to make the prototype aircraft flying arcade game. The links provided under the text `code snippet` are permalinks to the relevant sections inside the repository. 
 
 ![A screenshot of Fwog Template](preview.png)
 
