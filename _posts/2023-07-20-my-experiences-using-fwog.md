@@ -15,8 +15,6 @@ image:
 
 {% raw %}
 
-# Introduction
-
 > \[Fwog is a\] Low-level OpenGL 4.6 abstraction written in C++20. Fwog mitigates many of the weak points of OpenGL while providing a modern interface 
 
 [Description from Fwog's GitHub repository](https://github.com/JuanDiegoMontoya/Fwog#froggy-opengl-engoodener)
