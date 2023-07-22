@@ -327,7 +327,7 @@ They are quite useful as a form of documentation to understand ways of doing thi
 
 I tried out Fwog and tested it through making a [simple aircraft simulation game](https://github.com/ClementineAccount/Albuquerque).
 
-![[233835096-0425f3ee-9390-4a34-a07a-f1c95e81af42.png]]
+![Plane Game preview](planegame.png)
 
 I originally started from the [01_hello_triangle](https://github.com/JuanDiegoMontoya/Fwog/tree/main/example#01_hello_triangle) example from the Fwog repo. This was a mistake as Fwog is meant to be accessed as a library, making it difficult to update the library. This was one of the motivations for creating the template.
 
