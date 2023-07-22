@@ -26,7 +26,7 @@ To be upfront, my impressions of Fwog was generally quite positive when using it
 I hope that by describing what I liked about it in this post, I could convince more people to give it a try or at least see its value. I will detail why I chose to experiment with the framework, code examples of one way to use it and how I felt about the framework in the end.
 
 
-# Why Fwog? 
+## Why Fwog? 
 
 In short, here is a summary of what made Fwog appealing to me. This section also elaborates on these points in further detail.
 
@@ -43,7 +43,7 @@ The creator of Fwog, [Jake Ryan (JuanDiegoMontoya)](https://github.com/JuanDiego
 
 With all these factors, it was inviting to jump in and support the project as I could help contribute to it by using it sincerely in my own applications. This also allowed me to make pull requests and bug fixes while having fun with a new way to interface with OpenGL. 
 
-# So how do I make anything with Fwog?
+## So how do I make anything with Fwog?
 
 This section assumes the reader has had some familiarity with using graphical APIs like WebGL, OpenGL or Vulkan to render graphics and knows what they are looking for, rather than acting as a full step-by-step tutorial. The reader should feel free to skip to the next section if they are uninterested in writing code with the Fwog library.
 
@@ -51,7 +51,7 @@ The following code examples are from a [Fwog starter template](https://github.co
 
 ![A screenshot of Fwog Template](preview.png)
 
-## Pipeline Objects
+### Pipeline Objects
 
 This [snippet](https://github.com/ClementineAccount/Fwog-CMake-Glfw-OpenGL-Template/blob/8a092f091eeb42b275d65cd2a871a1be590f40ac/src/Project/ProjectApplication.cpp#L276) demonstrates one way to construct pipeline objects, passing in shader paths. It could potentially be further improved to pass in the binding descriptor sets too if the user requires it.
 
@@ -112,7 +112,7 @@ Fwog::GraphicsPipeline ProjectApplication::MakePipeline(std::string_view vertexS
 This creates a clear association between valid uniform handles and names. We then also have to create buffers for our vertices, both for the vertices and for uniforms that are passed into the shaders. 
 
 
-## Draw Commands
+### Draw Commands
 
 The following [code snippet](https://github.com/ClementineAccount/Fwog-CMake-Glfw-OpenGL-Template/blob/8930bc5da779c355caec4b432c61ffa629274277/src/Project/ProjectApplication.cpp#L66) shows an example of a user-made [DrawObject structure type](https://github.com/ClementineAccount/Fwog-CMake-Glfw-OpenGL-Template/blob/8930bc5da779c355caec4b432c61ffa629274277/src/Project/include/Project/ProjectApplication.hpp#L112) which I had created for the template as a simple example of an abstraction. This is used to associate vertex and index buffers together which can in turn be used by `GameObject` or `Component` type abstractions.
 
@@ -151,7 +151,7 @@ Finally, this [next example](https://github.com/ClementineAccount/Fwog-CMake-Glf
 
 (In hindsight, the name of the function should have been called 'Draw' instead)
 
-## Uniform Binding Objects (Projection View Matrix)
+### Uniform Binding Objects (Projection View Matrix)
 
 In the template, the ['Camera' class](https://github.com/ClementineAccount/Fwog-CMake-Glfw-OpenGL-Template/blob/8930bc5da779c355caec4b432c61ffa629274277/src/Project/include/Project/ProjectApplication.hpp#L145) contained the uniform buffers for the view and projection matrices together for easier prototyping and demonstration, especially in regards to showcasing how to create a simple skybox. 
 
@@ -297,7 +297,7 @@ As a side note, this also shows the additional strength of pipeline objects as i
 The skybox example also gives a brief introduction to texture uploads in Fwog.
 The function `BindSampledImage` takes in the texture and the sampler object.
 
-## Examples
+### Examples
 
 Finally, the Fwog repo comes with some built-in examples. The following screenshots include a Hello Triangle example and a glTF viewer example. In addition to demonstrating the use of Fwog with a scene loader, the latter also acts an example showcasing the use of a gbuffer for deferred rendering. It is a possible stepping stone up from the template. The examples can be seen in more detail [here](https://github.com/JuanDiegoMontoya/Fwog/tree/main/example)
 
@@ -323,7 +323,7 @@ They are quite useful as a form of documentation to understand ways of doing thi
 ```
 
 
-# What was it like using Fwog in a game project? 
+## What was it like using Fwog in a game project? 
 
 I tried out Fwog and tested it through making a [simple aircraft simulation game](https://github.com/ClementineAccount/Albuquerque).
 
@@ -340,7 +340,7 @@ It was relatively smooth sailing (or flying) from here on out. It wasn't hard to
 My prototyping phase was messy, with a lot of repeated code and an increasingly chaotic global state. Regardless of that, refactoring it and making the template from my experience was a painless experience.
 
 
-# Conclusion
+## Conclusion
 
 I'd continue to use Fwog for toy projects and experimentation due to that ease, although it could never replace working with OpenGL directly for some educational goals. Having it as complimentary can allow me to have projects that focus more on shader magic or spatial acceleration structures in addition to more raw OpenGL projects that would benefit from dealing with the buffers directly. 
 
