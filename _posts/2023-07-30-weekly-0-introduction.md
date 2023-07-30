@@ -2,7 +2,7 @@
 layout: post
 title: 'Weekly 0: Introduction'
 date: 2023-07-30 11:13 +0800
-
+categories: [Blog, Weekly]
 img_path: /assets/Weekly/Weekly0
 toc: true
 
