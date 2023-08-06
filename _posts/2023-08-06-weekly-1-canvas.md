@@ -19,7 +19,7 @@ I still have been relatively productive this week when it comes to my personal p
 
 The past few weeks I have been slowly progressing through The Odin Project for web development without getting overwhelmed with all the options there. I do a bit every other day at a comfortable pace at the moment. 
 
-I get 'distracted' a ton though by also experimenting with my own web stuff after I learn a concept, I like to try and push my understanding. I guess you can't keep me fully trapped in [tutorial hell](as my attempt to climb out of a [tutorial hell](https://www.linkedin.com/pulse/how-escape-tutorial-hell-ikechukwu-vincent/)), which I suppose is a good thing.
+I get 'distracted' a ton though by also experimenting with my own web stuff after I learn a concept, I like to try and push my understanding. I guess you can't keep me fully trapped in [tutorial hell](https://www.linkedin.com/pulse/how-escape-tutorial-hell-ikechukwu-vincent/), which I suppose is a good thing.
 
 The web ecosystem really confusing at the moment for me, since there's a lot of tech I am not familiar with such as 'NodeJS', 'Rollup', 'Webpack', 'Flask', 'Django', 'React', 'Vue', 'Electron', and... let's just stop there. I do understand some of these, for example I experimented with Electron to package a website as a standalone `.exe` and enjoyed that, but I noticed things started to get confusing when it comes to the `Webpack`, `Rollup` and `Parcel` such as 'why does it take 10 seconds to compile my TypeScript code here?'
 
