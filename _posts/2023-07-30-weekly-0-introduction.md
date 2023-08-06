@@ -145,7 +145,7 @@ I also have been catching up on my reading and studying as I got a haul of used 
 
 I have been setting aside time every evening to turn off my computer and simply study from reading, including doing some of the exercises from the math textbooks too. I find it's a great use of my evening time while reducing the exposure to blue light and improves the quality of my sleep. I will write more about what I had learned in a future weekly update post, however. So far I have just been catching up a lot on revising my Calculus 1 and 2, like derivatives and integral stuff.
 
-# Conclusion
+## Conclusion
 
 Writing a Weekly Post like this is kind of nice. I feel like it gives me a chance to talk about more things at an overview level without spending too much time on the depth (which means more time for studying and coding!). It also can act as a more useful record of my skill progression over time while being a source of accountability.
 
