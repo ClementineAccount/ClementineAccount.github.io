@@ -6,11 +6,16 @@ order: 2
 
 # Who am you? What is this site?
 
-My name is Clementine and I was born in 1999. This website acts as a sort of portfolio used to host articles that I have written myself detailing things I have learned in my coding adventures both academically and in my personal life. 
+My name is Clementine and I was born in 1999. This website acts as a sort of portfolio used to host articles that I have written myself detailing things I have learned in my coding adventures both academically and in my personal life. The main purpose of this blog is to act as a conversation piece when introducing myself to people I meet when asked about what I like about coding. 
 
-The sidebars will be your friend to find writeups about the [projects that I have worked on](http://localhost:4000/categories/). The rest of this page just describes the type of things that interest me, both within programming and outside it (I do have a life outside of [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code), after all). 
+In addition to showcasing my side projects and the technical skills I learned through working on them, I intend my posts and articles to be a demonstration of some of my problem solving and planning skills, which I hope can help potential future employeers be informed in whether I would be a right fit for their own projects. 
 
-New posts twice a month since May 2023!
+Besides being an icebreaker for people I might meet in person or recruiters, I do not have a core target audience beyond these two demographics at the current moment. For now I am most focused on developing my own skills and documenting what I have learned through those projects, which is the type of writing that is the most relevant to my target demographic of employers while I am an undergraduate (and soon, fresh graduate). Maybe someday in the future I would write blog posts targetting a more general audience or make tutorial content for educational purposes, perhaps after my early career has become much more stable perhaps and I feel confident to teach rather than to just recount.
+
+The sidebars will be your friend to find writeups about the [projects that I have worked on](https://clementineaccount.github.io/categories/). The rest of this page just describes the type of things that interest me, both within programming and outside it (I do have a life outside of [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code), after all). 
+
+# Schedule
+I update a new [weekly recap](https://clementineaccount.github.io/posts/weekly-0-introduction/) post every Sunday, and aiming to do full [articles](https://clementineaccount.github.io/posts/using-blender-to-edit-levels-in-my-3d-game-projects-instead-of-creating-a-level-editor/) every month.
 
 # What do you code?
 
@@ -19,10 +24,12 @@ These are some of my current interests which I practice and am learning through 
 - How to get better at using the right [Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern) when refactoring or rewriting my own projects.
 - Working with external libraries and contributing to open-source projects that I use.
 - Developing video game engines, [video games without engines](https://geometrian.com/programming/tutorials/write-games-not-engines/) or video games using engines. I like to explore makings things with as little dependencies as possible in some projects but also exploring other tools and editors in other projects.
-- Graphics and shader programming, both retro and modern techiniques.
+- Graphics and shader programming, both retro and modern techiniques. Lately I've been into software rendering.
 - Getting better at writing and contributing to documentation, as well as writing decent pull requests and commit messages.
 - Practicing some [scrum project management even for some of my solo projects](https://www.kodeco.com/585-scrum-of-one-how-to-bring-scrum-into-your-one-person-operation). Stuff like attempting the daily scrum by myself can help push the bigger projects to make their way to completion and instil the important habits and skills of task estimation and meeting deadlines.
 - Reverse engineering skills through making modifications for older computer games.
+
+I also try to attempt problems as much as I could by myself, only using tutorials as a last resort. I like to develop techiniques from first principles or learning theory from textbooks first and then applying them. In any of my projects on this page, it can be assumed I figured out the solutions by myself unless I had credited a source (which I always seek to do). 
 
 # What are your hobbies outside of coding?
 
