@@ -4,6 +4,9 @@ title: "How to check that you chose a suitable name for your commercial indie ga
 date: 2023-09-10 12:49 +0800
 categories: [Blog, Weekly]
 toc: true
+
+img_path: /assets/Weekly/Weekly5
+
 ---
 
 Hi! This post shows the process for how I came up with the current name for my current commercial indie game in early production, Rocket Game... which is now going to be called Collision Theory! It discusses three important tests that you could do for your own project to choose a suitable name, identifying if the name has a thematic hook and appeal, verifying that the name it is easy to spell, remember or say in conversation and finally, checking that the name is not already taken by a competing media property.
