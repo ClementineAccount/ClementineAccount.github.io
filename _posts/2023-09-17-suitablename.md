@@ -15,7 +15,7 @@ This is considered a Weekly Post, but I decided to change the title and thesis s
 
 ## New Name... Collision Theory
 
-The game's new name is going to be called Collision Theory, named after the [chemistry concept.]((https://en.wikipedia.org/wiki/Collision_theory)) One of the main reasons I chose this name because I have a fondness for media that is named after academic concepts like in science, philosophy or mathematics. I know that I still childishly smirk when I see the word 'Half-Life' in mathematics textbooks, even though at this point I have read it more in the context of the actual science of [radioactive decay](https://en.wikipedia.org/wiki/Half-life) instead of the famous [video game.](https://en.wikipedia.org/wiki/Half-Life_(video_game)). I like the idea of things from the real world reminding people of my game, and so that alone is appealing.
+The game's new name is going to be called Collision Theory, named after the [chemistry concept.](https://en.wikipedia.org/wiki/Collision_theory) One of the main reasons I chose this name because I have a fondness for media that is named after academic concepts like in science, philosophy or mathematics. I know that I still childishly smirk when I see the word 'Half-Life' in mathematics textbooks, even though at this point I have read it more in the context of the actual science of [radioactive decay](https://en.wikipedia.org/wiki/Half-life) instead of the famous [video game.](https://en.wikipedia.org/wiki/Half-Life_(video_game)). I like the idea of things from the real world reminding people of my game, and so that alone is appealing.
 
 ## First Test... does the name fit and is it interesting?
 
