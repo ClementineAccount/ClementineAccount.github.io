@@ -4,41 +4,26 @@ icon: fas fa-info-circle
 order: 2
 ---
 
-# Who am you? What is this site?
+# Who am you? What is this site? What are your goals?
 
-My name is Clementine and I was born in 1999. This website acts as a sort of portfolio used to host articles that I have written myself detailing things I have learned in my coding adventures both academically and in my personal life. The main purpose of this blog is to act as a conversation piece when introducing myself to people I meet when asked about what I like about coding. 
+My name is Clementine and I was born in 1999. This blog originally started as a way to write about my coding projects as a computer science undergraduate, but have since evolved to be focused on my indie game development business. My posts won't bore you with trivial dev logs, and I aim to try and have every post I write here give some advice or value that you can learn from.
 
-In addition to showcasing my side projects and the technical skills I learned through working on them, I intend my posts and articles to be a demonstration of some of my problem solving and planning skills, which I hope can help potential future employeers be informed in whether I would be a right fit for their own projects. 
+My promise to my players is to release one full, finished game every single month and catalog the experiences and lessons learned from these games so that they could apply them themselves for their own projects... or just for their own entertainment. 
 
-Besides being an icebreaker for people I might meet in person or recruiters, I do not have a core target audience beyond these two demographics at the current moment. For now I am most focused on developing my own skills and documenting what I have learned through those projects, which is the type of writing that is the most relevant to my target demographic of potential employers while I am an undergraduate (and soon, fresh graduate). 
+My primary goal as a business is to sell small but high quality 'point and click' focused games on a lower budget as a way to supplement my main income sources, with the target of making an average of a humble 1000 USD a month through sales of my back catalog. I am not aiming to release hits here, but to cater to niche audiences, with an emphasis on having [middle games](https://howtomarketagame.com/2023/09/28/the-missing-middle-in-game-development/) that run well on low-end hardware. By 'point and click' focused, I am referring to accessible games that can be played entirely with a mouse or touchscreen, with keyboard controls only serving as optional helpful hotkeys rather than reflex heavy controls.
 
-Maybe someday in the future I would write blog posts targetting a more general audience or make tutorial content for educational purposes, perhaps after my early career has become much more stable perhaps and I feel confident to teach rather then just documenting my own learning.
 
-The sidebars will be your friend to find writeups about the [projects that I have worked on](https://clementineaccount.github.io/categories/). The rest of this page just describes the type of things that interest me, both within programming and outside it (I do have a life outside of [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code), after all). 
+# What kind of games do you make?
 
-# Schedule
-I update a new [weekly recap](https://clementineaccount.github.io/posts/weekly-0-introduction/) post every Sunday, and aiming to do full [articles](https://clementineaccount.github.io/posts/using-blender-to-edit-levels-in-my-3d-game-projects-instead-of-creating-a-level-editor/) every month.
+The target demographic for future games being made starting from November 2023 will be focused primarily on having a horror aesthetic but with the gameplay loops of [Tactics](https://en.wikipedia.org/wiki/Turn-based_tactics) or Strategy genre games. The combination of horror and tactical games is rarer, but I think there is a hungry audience for it (including myself!) that would devour them. Of course, I am experimenting with both turn-based and real-time tactical type games.
 
-# What do you code?
+I chose the genre of Tactical and Strategy focused games after careful market study and with the consideration of my budget, resources and interests. The amount of polish, quality and accessibility I could deliver in a month of development is much higher for games with a focus on 'point and click' interfaces compared to reflex heavy action mechanics. This genre benefits from being possible to playtest and balance using just pen and paper while inherently allowing a greater degree of abstraction in art assets and animations. 
 
-These are some of my current interests which I practice and am learning through my [coding projects](http://localhost:4000/categories/):
-- Learning full-stack web development.
-- How to get better at using the right [Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern) when refactoring or rewriting my own projects.
-- Working with external libraries and contributing to open-source projects that I use.
-- Developing video game engines, [video games without engines](https://geometrian.com/programming/tutorials/write-games-not-engines/) or video games using engines. I like to explore makings things with as little dependencies as possible in some projects but also exploring other tools and editors in other projects.
-- Graphics and shader programming, both retro and modern techiniques. Lately I've been into software rendering.
-- Getting better at writing and contributing to documentation, as well as writing decent pull requests and commit messages.
-- Practicing some [scrum project management even for some of my solo projects](https://www.kodeco.com/585-scrum-of-one-how-to-bring-scrum-into-your-one-person-operation). Stuff like attempting the daily scrum by myself can help push the bigger projects to make their way to completion and instil the important habits and skills of task estimation and meeting deadlines.
-- Reverse engineering skills through making modifications for older computer games.
+Not only that, but it is also a more underserved consumer market, espeically when incorporating horror aesthetic and themes, which allows a greater degree of creative innovation and freedom. There are not many tactics games coming out that are made with a more experimental and smaller budget.
 
-I also try to attempt problems as much as I could by myself, only using tutorials as a last resort. I like to develop techiniques from first principles or learning theory from textbooks first and then applying them. In any of my projects on this page, it can be assumed I figured out the solutions by myself unless I had credited a source (which I always seek to do). 
+Why the horror genre in particular? Honestly part of it is that I just love making scary stuff at its core. Marketing wise, however, horror is a very viable market that allows the creation of high quality, expressive games with a very low budget as detailed in this [article by zukalous](https://howtomarketagame.com/2023/10/02/every-indie-game-developer-should-make-a-horror-game/). It is also an aesthetic that I genuinely love to draw in as someone who does not have a professional or educational background in art. When it comes to aesthetics, horror as a genre embraces a more raw artistic expression and soul rather than corporate, professional and clean polish when it comes to marketing and the quality of a product. 
 
-# What are your hobbies outside of coding?
+I also have a personal rule that all games I make must be fully playable with only a mouse, touchpad or touchscreen. This is because it allows me to make accessible games for people with motor disabilities to enjoy while keeping my development costs manageable as a small developer.
 
-In addition to the software related topics, which are the main focus of this site, I would say that some of my hobbies include the following:
-- Writing both fiction and non-fiction. I like to write short stories for my friends and use [Obsidian](https://obsidian.md/) to create journal entries and notes for daily living, studies and projects.
-- Jogging, cycling and calisthenics. The park connectors near my place make an excellent trail for jogging while listening to podcasts or video essays.
-- Playing [tabletop role-playing games](https://en.wikipedia.org/wiki/Tabletop_role-playing_game) with my friends. The systems I usually play include [Dungeons and Dragon 5e](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) and the [Star Wars FFG](https://en.wikipedia.org/wiki/Star_Wars_Roleplaying_Game_(Fantasy_Flight_Games)). I like using both [Roll20](https://roll20.net/) and [Foundry Virtual Tabletop](https://foundryvtt.com/) to play with my friends overseas. Both are also inspirations of mine for web development.
-- Studying the history of the Unitied States, Japan and Singapore from the 1980s to late 2000s. One of my favorite biographies of all time is [Masters of Doom](https://en.wikipedia.org/wiki/Masters_of_Doom). Beyond just the technological and pop culture aspects, the human element of the workplace cultures and lifestyles and how they have evolved over time is a big interest to me.
-- My favorite genre of music is Jazz, specifically [Japanese Fusion Jazz](https://www.youtube.com/watch?v=e-xY_lMQTQ8), although it might be because of its [influence on video game music production](https://www.youtube.com/watch?v=oKWgLe-jQjc). Some of the bands I like are [Casiopea](https://www.youtube.com/watch?v=e-xY_lMQTQ8) and [T-SQUARE](https://www.youtube.com/watch?v=aK8RWlcjbFA).
-- Of course, I do like video games but I do not play as much as I used to as a teenager. Some video games I really like include [The Elder Scrolls V: Skyrim](https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim), [Trackmania United Forever](https://en.wikipedia.org/wiki/TrackMania#TrackMania_United_Forever_&_Nations_Forever), [The Persona Series](https://en.wikipedia.org/wiki/Persona_(series)) and [Rocket League](https://en.wikipedia.org/wiki/Rocket_League). My favorite game studio has to be [Bethseda Softworks](https://en.wikipedia.org/wiki/Bethesda_Softworks) because of their commitment to creating mod tools ([Daggerfall](https://en.wikipedia.org/wiki/The_Elder_Scrolls_II:_Daggerfall) was also ahead of its time honestly).
+# Blog Schedule
+I update a new [weekly recap](https://clementineaccount.github.io/posts/weekly-0-introduction/) post every Sunday, which is often a brief summary indicating that I am still alive and what I am working on. Beyond that, I also write post-mortems and tutorials based off the things I learned making at least one full, finished game a month.
