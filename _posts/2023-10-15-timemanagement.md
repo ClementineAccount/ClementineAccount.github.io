@@ -15,6 +15,8 @@ The post is written from the perspective of reflecting on the way I had spent my
 
 I have been using the similar systems to track my time and progress since March 2023, refining them and improving them to this point. I chose the October 'Game A Week' project as the case study as it is the most recent success case of its use for a finished project.
 
+Edit: Turns out a few similar points were also mentioned in the [Weekly 7 post too](https://clementineaccount.github.io/posts/weekly7/). Shows how useful it is that I wish to share it so often. 
+
 ## Time Tracking
 
 Using the application [Toggl Track](https://toggl.com/), I took note of the intervals of time I had spent on the project, and on what kind of features. This allowed me to get a clear understanding not only of what I have done, but what I am currently capable of doing under certain time projections.
