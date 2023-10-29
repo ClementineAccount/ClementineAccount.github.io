@@ -13,7 +13,9 @@ image:
   alt: VR Avatar Embodiment Screenshot
 
 ---
-In 2020 I worked on an internship contract project for Nanyang Technological University, where I worked in Unity using both SteamVR and the Oculus extensions to script a roleplay simulation for a study. This is the project listed on my LinkedIn as well. 
+In early 2020, before I started undergrad, I worked on an internship contract project for Nanyang Technological University. 
+
+In this contract, I worked in Unity using both SteamVR and the Oculus extensions to script a roleplay simulation for a study. This is the project listed on my LinkedIn as well. 
 
 The original study, which also contains more details on what the simulation scenario in virtual reality, can be read here, titled: [The Effect of VR Avatar Embodiment on Improving Attitudes and Closeness Toward Immigrants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8554103/), where I am also credited. 
 
