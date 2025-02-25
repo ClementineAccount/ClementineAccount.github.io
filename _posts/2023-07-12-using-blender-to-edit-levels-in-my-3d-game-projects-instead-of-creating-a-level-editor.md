@@ -12,6 +12,14 @@ image:
 
 ---
 
+Edit (25th February 2025): Shortly after this blog post was originally published, there was a talk given at the Blender Conference 2023 by Jel Sadones titled "Rapid design iteration: A deep dive in Breacher's level editor". It can be found [here](https://www.youtube.com/watch?v=HGbuLGH0GW). It covers the same overall concept of this blog post, whereby a pipeline is used for level creation to be done in Blender and imported to a game engine like Unity using custom tooling. The difference is that it discusses the concept in the context of a commerical game project that has successfully completed production. 
+
+Additionally, I had also discovered that Jorrit Rouwé (of Jolt Physics and Guerilla Games) have actually published an article titled [The Guerrilla Guide to Game Code] way back in 2005 that very briefly talks about level content was created in Maya and imported into the engine with a plug-in. It does not go into details, but it would have been good if I had discovered this and mentioned it to show another example of this approach to content development being done in the industry. 
+
+Finally, I learned that Worms Armageddon had been using the BMP file format as a 'level format' way back in 1999. I actually was not aware of this when me and James Peng Er came up with the concept to use BMP file formats as our level format. It was a pleasant surprise to learn that we were on the right track and a successful game project had the same idea, even if it was during the same year I was born in. 
+
+Anyways, the original article is preserved below.
+
 In late April 2023, I started working on a [video game where the player could fly an aircraft vehicle around an open 3D space](https://github.com/ClementineAccount/Albuquerque/tree/main). The main appeal and challenge to me was creating it without a game engine and editor to support me. So instead of using a popular game engine like Unity or Unreal, I would be writing a lot of the code myself for instead coding a lot of features myself as a learning exercise and for fun.
 
 For some brief context in layman's terms, game engines and editors are to video game development as what 'Adobe's Photoshop' would be towards manipulating photographs of making digital artwork or what Microsoft Office or Google Documents would be for making paperwork, essays or documents. They are industry standard tools that help standarize and make the process of game development more productive by covering problems that are already solved. 
