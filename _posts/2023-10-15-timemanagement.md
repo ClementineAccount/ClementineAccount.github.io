@@ -7,6 +7,8 @@ categories: [Blog, Articles]
 img_path: /assets/blog/TimeManagement
 toc: true
 
+published: false
+
 ---
 
 This post was originally written as a section for the blog post on [Game A Week 1](https://clementineaccount.github.io/posts/gaw1/), but I chose to move it to its own post as it got bigger, more detailed and more. I hope it can serve as a useful starting point for anyone hoping to better improve their ability to manage their time, reflect on work or communicate their workload to other people.
